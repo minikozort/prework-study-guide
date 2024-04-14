@@ -1,9 +1,7 @@
 const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
-
 for (let x = 0; x < topics.length; x++) {
  console.log(topics[x]);
 }
-
 
 if (topics === 'HTML') {
  console.log("Let's study HTML!");
@@ -16,3 +14,13 @@ if (topics === 'HTML') {
 } else {
  console.log('Please try again!');
 }
+function listtopics() {
+ for (let x = 0; x < topics.length; x++) {
+   console.log(topics[x]);
+ }
+
+console.log ("Here are the topics we learned through Prework:");
+listtopics();
+console.log("Which topic should we study first?");
+selecttopics();
+
